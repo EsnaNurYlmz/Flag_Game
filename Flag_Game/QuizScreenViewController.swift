@@ -9,21 +9,31 @@ import UIKit
 
 class QuizScreenViewController: UIViewController {
 
+    @IBOutlet weak var labelTrue: UILabel!
+    @IBOutlet weak var labelFalse: UILabel!
+    @IBOutlet weak var labelQuestion: UILabel!
+    @IBOutlet weak var buttonA: UIButton!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var buttonC: UIButton!
+    @IBOutlet weak var buttonB: UIButton!
+    
+    @IBOutlet weak var buttonD: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func buttonAClicked(_ sender: Any) {
     }
-    */
-
+    
+    @IBAction func buttonBClicked(_ sender: Any) {
+    }
+    
+    @IBAction func buttonCClicked(_ sender: Any) {
+    }
+    
+    @IBAction func buttonDClicked(_ sender: Any) {
+    }
 }
